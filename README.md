@@ -1,7 +1,13 @@
 # react-privateroute
 
-Created with CodeSandbox
+* React と Laravel Sanctum との連携（最小限構成）
 
-[Original Code](https://reactrouter.com/web/example/auth-workflow)
+react-privateroute からの Fork.  
+[react-privateroute](https://github.com/hirolog/react-privateroute)
 
-[An example of using Firebase](https://usehooks.com/useAuth/)
+react-privateroute は、外部連携しておらず、codesandboxなど単体で動作確認できる。  
+これを拡張し、外部APIへのログイン機能を加えた物。  
+
+外部APIは Laravel Sanctum を想定。  
+\utils\auth\apiAuth.jp  
+で実際にAPIに投げている。
